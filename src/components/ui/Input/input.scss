@@ -1,0 +1,18 @@
+.input {
+  border: none;
+  border: gray solid 1px;
+  background: transparent;
+  width: 100%;
+  padding: 8px 15px;
+  transition: 0.1s;
+  border-radius: 2px;
+  opacity: 0.7;
+  &:focus {
+    outline: none;
+    transform: scale(1.01);
+  }
+
+  &__error {
+    border-color: red;
+  }
+}

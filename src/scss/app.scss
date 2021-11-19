@@ -1,0 +1,15 @@
+@import "fonts";
+@import "variables";
+@import "libs/normalize";
+
+@import "components/all";
+
+body {
+  background-color: $lemon;
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  padding: 0 15px;
+}
