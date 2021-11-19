@@ -7,6 +7,15 @@
   padding: 20px 0;
   border-bottom: 1px solid gray;
   margin-bottom: 10px;
+  @media screen and (max-width: 720px) {
+    display: block;
+  }
+  &__menu {
+    @media screen and (max-width: 720px) {
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
 
   button {
     border: none;

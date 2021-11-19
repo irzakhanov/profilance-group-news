@@ -52,7 +52,11 @@
 
   &__search {
     flex: 0.3;
+    @media screen and (max-width: 720px) {
+      flex: 0.6;
+    }
     input {
+      width: 100%;
       background-color: #fff;
     }
   }
@@ -72,6 +76,9 @@
   padding: 30px;
   background-color: $azure;
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  @media screen and (max-width: 720px) {
+    width: 100%;
+  }
   &__title {
     margin-bottom: 20px;
   }
